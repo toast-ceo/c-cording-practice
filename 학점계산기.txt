@@ -300,8 +300,8 @@ void Timetable() {
 		int index_1 = 0, index_2 = 0; char day[2], icontmp;
 			
 		printf("취소 하고 싶은 요일과 교시를 쓰시오\n(요일은 알파벳으로 교시는 숫자로 표시하시오[ex: B4, D2 ] :  ");
-		gets(day);
-		printf("%s\n", day);
+		scanf("%s", &day);
+		
 		//확인
 
 		if (day[0] == 'A') {
